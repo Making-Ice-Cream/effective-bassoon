@@ -9,7 +9,7 @@ It handles four types of user(Admin, Teacher, Student & Parents).
 This Website is Made from using MERN Technique which also includes ML, DL for chatbot & face Recognisation in Frontend.
 
 
-Website can be found at: [[https://apni-coaching.netlify.app](https://apni-coaching.netlify.app/)](url)
+Website can be found at: https://apni-coaching.netlify.app
 
 ## Credentials for Testing Purpose
 For Admin
