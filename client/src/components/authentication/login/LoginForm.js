@@ -26,7 +26,7 @@ export default function LoginForm() {
    const [num , setnum] = useState("Generating Scholar Number");
   const gettingToken = () =>{
 
-    fetch('http://localhost:80/admin/student/scholarNumber', {
+    fetch('https://apni-coaching-server.herokuapp.com/admin/student/scholarNumber', {
       method: 'POST', 
       headers: {
         'Content-Type': 'application/json',
@@ -82,7 +82,7 @@ export default function LoginForm() {
        let { email, firstName, lastName,  contact, parent_contact,paymentType,batch,totalAmount, numberofInstallment} = values;
        
 
-       const response =  await fetch(`http://localhost:80/admin/student/newstudent`,{
+       const response =  await fetch(`https://apni-coaching-server.herokuapp.com/admin/student/newstudent`,{
         method : "POST",
         headers :{
             "Accept":"application/json",

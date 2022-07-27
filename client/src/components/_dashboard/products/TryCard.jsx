@@ -86,7 +86,7 @@ export default function TryCard() {
     else if(batch === "NEET") batch = "NEET"
     else if(batch === "Foundation") batch = "Foundation"
     console.log(Cookies.get('token'));
-    const metadata = fetch('http://localhost:80/admin/pendingDues', {
+    const metadata = fetch('https://apni-coaching-server.herokuapp.com/admin/pendingDues', {
         method: 'POST',
         headers: {
           Accept: 'application/vnd.citationstyles.csl+json',

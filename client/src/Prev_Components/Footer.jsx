@@ -6,7 +6,7 @@ const Footer = () => {
 
   async function submitData_footer(e) {
     e.preventDefault();
-    const response =  await fetch(`http://localhost:80/common/subscribeNewsletter`,{
+    const response =  await fetch(`https://apni-coaching-server.herokuapp.com/common/subscribeNewsletter`,{
         method : "POST",
         headers :{
             "Accept":"application/json",

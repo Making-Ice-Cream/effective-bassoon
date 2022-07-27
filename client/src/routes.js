@@ -53,11 +53,11 @@ export default function AdminRoutes() {
         console.log(final_data)
         switch(final_data){
           case 'Admin':
-                url = "http://localhost:80/admin/check";
+                url = "https://apni-coaching-server.herokuapp.com/admin/check";
              break;
   
           case 'Student':
-               url = "http://localhost:80/student/check"
+               url = "https://apni-coaching-server.herokuapp.com/student/check"
             break;
           case 'Teacher':
   

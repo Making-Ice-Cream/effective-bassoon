@@ -28,7 +28,7 @@ const ForgotPassword = () => {
      e.preventDefault() ;
 
      
-      const response =  await fetch(`http://localhost:80/admin/forgotPassword`,{
+      const response =  await fetch(`https://apni-coaching-server.herokuapp.com/admin/forgotPassword`,{
         method : "POST",
         headers :{
             "Accept":"application/json",

@@ -28,7 +28,7 @@ const ForgotPassword_using_Link =  () => {
     e.preventDefault() ;
 
      
-      const response =  await fetch(`http://localhost:80/admin/updatePassword`,{
+      const response =  await fetch(`https://apni-coaching-server.herokuapp.com/admin/updatePassword`,{
         method : "POST",
         headers :{
             "Accept":"application/json",

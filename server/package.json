@@ -1,10 +1,12 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server of Apni Coaching",
   "main": "index.js",
+  "author": "Deepak Yadav",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
   },
   "dependencies": {
     "@mailchimp/mailchimp_marketing": "^3.0.74",
@@ -21,6 +23,5 @@
     "nodemon": "^2.0.15"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC"
 }

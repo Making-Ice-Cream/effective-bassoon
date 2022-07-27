@@ -16,7 +16,7 @@ const Profile = () => {
     const sendData = async(e) =>{
       const {name, email} = user ;
       e.preventDefault() ;
-      const response =  await fetch(`http://localhost:80/admin/saveChangesToProfile`,{
+      const response =  await fetch(`https://apni-coaching-server.herokuapp.com/admin/saveChangesToProfile`,{
         method : "POST",
         headers :{
             "Accept":"application/json",

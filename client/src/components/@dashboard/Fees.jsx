@@ -20,7 +20,7 @@ const Fees = () => {
   // const [backgroundColor , setbackgroundColor] = useState();
   
   async function gettingData (){
-    const response =  await fetch("http://localhost:80/student/feeStatus",{
+    const response =  await fetch("https://apni-coaching-server.herokuapp.com/student/feeStatus",{
       method : "POST",
       headers :{
           "Accept":"application/json",

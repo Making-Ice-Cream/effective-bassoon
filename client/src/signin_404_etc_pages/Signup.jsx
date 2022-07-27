@@ -111,7 +111,7 @@ export default function Signup() {
     const getData = async(e)=>{
         e.preventDefault() ;
          
-        const res =  await fetch(`http://localhost:80/student/fetchData`,{
+        const res =  await fetch(`https://apni-coaching-server.herokuapp.com/student/fetchData`,{
             method : "POST",
             headers :{
                 "Accept":"application/json",
@@ -164,7 +164,7 @@ export default function Signup() {
       const savedata = async(e) =>{
         e.preventDefault() ;
          
-        const res =  await fetch(`http://localhost:80/student/signUp`,{
+        const res =  await fetch(`https://apni-coaching-server.herokuapp.com/student/signUp`,{
             method : "POST",
             headers :{
                 "Accept":"application/json",

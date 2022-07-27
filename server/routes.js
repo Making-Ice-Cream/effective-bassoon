@@ -1,7 +1,7 @@
-const adminRoutes = require("../server/All_routes/adminRoutes");
-const studentRoutes = require("../server/All_routes/studentRoutes");
-const commonRoutes = require("../server/All_routes/commonRoutes");
-const facultyRoutes = require("../server/All_routes/facultyRoutes");
+const adminRoutes = require("./All_routes/adminRoutes");
+const studentRoutes = require("./All_routes/studentRoutes");
+const commonRoutes = require("./All_routes/commonRoutes");
+const facultyRoutes = require("./All_routes/facultyRoutes");
 const express = require("express");
 const router = express.Router();
 

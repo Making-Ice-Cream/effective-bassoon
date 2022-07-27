@@ -11,7 +11,7 @@ const LoadingButton = () => {
     // console.log(queryString.get("email"))
 
     const checkToken = async() =>{
-        const response =  await fetch(`http://localhost:80/admin/verifyForgotPassToken`,{
+        const response =  await fetch(`https://apni-coaching-server.herokuapp.com/admin/verifyForgotPassToken`,{
             method : "POST",
             headers :{
                 "Accept":"application/json",

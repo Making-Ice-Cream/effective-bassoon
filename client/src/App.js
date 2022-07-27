@@ -104,7 +104,8 @@ export default function App() {
   // for bot
   
   useEffect(() => {
-    addResponseMessage("Hello, I am Ayesha. How may I help You? I need some time to boost My system, So the first 1-2 resopnses may takes Time :)");
+    addResponseMessage("Hello, I am Ayesha. How may I help You?");
+    addResponseMessage(" I need some time to boost my system. So, the first 1-2 responses may takes time :)");
   }, []);
 
   const handleNewUserMessage = async(newMessage) => {

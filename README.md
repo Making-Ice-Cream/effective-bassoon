@@ -8,7 +8,14 @@ It handles four types of user(Admin, Teacher, Student & Parents).
  All of them are assigned there separate work.
 This Website is Made from using MERN Technique which also includes ML, DL for chatbot & face Recognisation in Frontend.
 
+## Credentials for Testing Purpose
+For Admin
+```bash
+   Email: noreply.5671@gmail.com
+   Password: Apni@123
+```
 
+For other users, Admin can create Student, Teacher as well as Parents
 
 
 ## Acknowledgements

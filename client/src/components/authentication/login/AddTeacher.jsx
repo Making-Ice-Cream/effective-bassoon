@@ -103,7 +103,7 @@ export default function AddTeacher() {
         
           let {fullName , batch , email , contact , gender ,subject , password} = values;
            
-          const response =  await fetch(`http://localhost:80/admin/faculty/newfaculty`,{
+          const response =  await fetch(`https://apni-coaching-server.herokuapp.com/admin/faculty/newfaculty`,{
             method : "POST",
             headers :{
                 "Accept":"application/json",

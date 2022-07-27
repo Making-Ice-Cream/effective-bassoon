@@ -37,7 +37,7 @@ const Lock =  () => {
   }
  
   const gotoApp = () =>{
-    fetch('http://localhost:80/admin/checkpassword', {
+    fetch('https://apni-coaching-server.herokuapp.com/admin/checkpassword', {
       method: 'POST', 
       headers: {
         'Content-Type': 'application/json',

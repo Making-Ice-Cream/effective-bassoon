@@ -75,11 +75,11 @@ const Login =  (props) => {
       let url = "";
       switch(final_data){
         case 'Admin':
-              url = "http://localhost:80/admin/login";
+              url = "https://apni-coaching-server.herokuapp.com/admin/login";
            break;
 
         case 'Student':
-             url = "http://localhost:80/student/login"
+             url = "https://apni-coaching-server.herokuapp.com/student/login"
           break;
         case 'Teacher':
 

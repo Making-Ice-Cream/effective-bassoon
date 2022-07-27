@@ -84,7 +84,7 @@ export default function Classes() {
 
   // fo getting classes data
   useEffect(async()=>{
-    const response =  await fetch("http://localhost:80/student/getLectures",{
+    const response =  await fetch("https://apni-coaching-server.herokuapp.com/student/getLectures",{
       method : "POST",
       headers :{
           "Accept":"application/json",

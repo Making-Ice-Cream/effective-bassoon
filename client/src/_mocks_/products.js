@@ -64,7 +64,7 @@ const products = [...Array(24)].map((_, index) => {
 });
 
 
-const metadata = fetch('http://localhost:80/admin/students', {
+const metadata = fetch('https://apni-coaching-server.herokuapp.com/admin/students', {
   method: 'GET',
   headers: {
     Accept: 'application/vnd.citationstyles.csl+json'

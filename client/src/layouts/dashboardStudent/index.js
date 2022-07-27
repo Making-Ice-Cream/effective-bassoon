@@ -51,11 +51,11 @@ export default function DashboardLayout() {
     let url = "";
     switch(final_data){
       case 'Admin':
-            url = "http://localhost:80/admin/getAccountDetails";
+            url = "https://apni-coaching-server.herokuapp.com/admin/getAccountDetails";
          break;
 
       case 'Student':
-           url = "http://localhost:80/student/getAccountDetails"
+           url = "https://apni-coaching-server.herokuapp.com/student/getAccountDetails"
         break;
       case 'Teacher':
 

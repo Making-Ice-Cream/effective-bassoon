@@ -62,11 +62,11 @@ export default function AccountPopover({data}) {
     let url = "";
     switch(final_data){
       case 'Admin':
-            url = "http://localhost:80/admin/logout";
+            url = "https://apni-coaching-server.herokuapp.com/admin/logout";
          break;
 
       case 'Student':
-           url = "http://localhost:80/student/logout"
+           url = "https://apni-coaching-server.herokuapp.com/student/logout"
         break;
       case 'Teacher':
 

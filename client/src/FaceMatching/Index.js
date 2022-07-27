@@ -50,7 +50,7 @@ let deep2 = `[
  ]`
  
 
-const metadata = fetch('http://localhost/student/StudentsData', {
+const metadata = fetch('https://apni-coaching-server.herokuapp.com/student/StudentsData', {
   method: 'GET',
   headers: {
     Accept: 'application/vnd.citationstyles.csl+json'
